@@ -1,0 +1,23 @@
+/* ComingSoon.css */
+.coming-soon-heading {
+  color: blue;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  margin: 10px;
+  width: 300px;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-title {
+  text-align: center;
+}

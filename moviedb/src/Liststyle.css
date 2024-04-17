@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between grid items */
+  justify-items: center; /* Center items horizontally */
+}
+  
+  .movie-poster {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-poster:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-title {
+    font-family: "Source Sans Pro", sans-serif; 
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+  }  
+
+  .movie-card {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-to-favorites-button {
+    background-color: #25bdbd;
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-to-favorites-button:hover {
+    background-color: #1b5f5f;
+  }
+

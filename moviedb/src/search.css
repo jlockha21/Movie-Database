@@ -1,0 +1,93 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");  
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .search-title {
+    text-align: center;
+    padding: 20px;
+}
+  
+  .search-container {
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .search-input {
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block; /* Ensure the input takes up the full width available */
+    margin: 0 auto; /* Center the input horizontally */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #25bdbd;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensure the button takes up the full width */
+    margin: 0 auto; /* Center the button horizontally */
+    
+  }
+  
+  .movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie-overview {
+    font-size: 14px;
+  }
+  
+  .add-to-favorites-button {
+    background-color: #25bdbd;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-to-favorites-button:hover {
+    background-color: #1b5f5f;
+  }
+  .favorites-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the column size as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+    justify-items: center; /* Center items horizontally */
+  }
+  
