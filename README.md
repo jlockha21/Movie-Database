@@ -2,6 +2,8 @@
 
 Welcome to the Movie Database project! This is a web application built with React.js that allows users to browse information about movies, including movies currently in theaters, upcoming releases, and the ability to search for specific movies.
 
+Here is the live site link : https://pacific-temple-59671-32b4135be7c1.herokuapp.com
+
 ## Features
 
 - **Browse Now:** View movies currently in theaters.
