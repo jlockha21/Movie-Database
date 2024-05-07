@@ -2,7 +2,7 @@
 
 Welcome to the Movie Database project! This is a web application built with React.js that allows users to browse information about movies, including movies currently in theaters, upcoming releases, and the ability to search for specific movies.
 
-Here is the live site link : (https://moviedatabase-32a21227e4d7.herokuapp.com)
+Check out the live site [here](https://moviedatabase-32a21227e4d7.herokuapp.com).
 
 ## Features
 
@@ -27,7 +27,7 @@ Here is the live site link : (https://moviedatabase-32a21227e4d7.herokuapp.com)
 
 ## Deployment
 
-This project can be deployed to various platforms, such as Heroku, Netlify, or Vercel. Follow the deployment instructions provided by your chosen platform.
+This project can be deployed to various platforms such as Heroku, Netlify, or Vercel. Follow the deployment instructions provided by your chosen platform.
 
 ## Contributing
 
